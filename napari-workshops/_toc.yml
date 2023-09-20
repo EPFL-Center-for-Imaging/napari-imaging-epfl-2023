@@ -2,12 +2,8 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: home
+root: README
 chapters:
-- file: docs/build_your_workshop
-  sections:
-  - file: docs/deployment_guide
-  - file: docs/launching_binder
 - file: getting_started
   sections:
   - file: installation
@@ -20,3 +16,12 @@ chapters:
   - file: notebooks/manual_annotation
   - file: notebooks/custom_colormaps
 - file: make_a_simple_plugin
+- file: examples/README.md
+  sections:
+  - file: examples/segmentation_3d.ipynb
+  - file: examples/skeletonization.ipynb
+  - file: examples/lungs_segmentation.ipynb
+  - file: examples/tracking_2d.ipynb
+  - file: examples/image_correlation.ipynb
+  - file: examples/nuclei_stardist.ipynb
+- file: examples/20_questions.md
