@@ -108,19 +108,19 @@ You can launch Napari from a Jupyter notebook, in which case you'll be able to i
 There are several examples of [Image data visualization case studies](./notebooks/README.md) in this repository that you can check out. These case studies take the form of Jupyter notebooks and showcase what you can do with Napari in different contexts.
 ```
 
-```{dropdown} 14. What are Napari plugins? Where can I find and install them?
+```{dropdown} 14. What are Napari plugins? Where can I find them?
 [Plugins](https://napari.org/stable/plugins/index.html) are a way of extending the viewer's functionality by providing custom user interfaces and commands for realizing specific tasks. The [Napari Hub](https://www.napari-hub.org/) offers a listing of over 300 plugins developed by the community.
 
 You can install Napari plugins as Python packages using `pip` (e.g. `pip install stardist-napari`) or through the viewer's menu: `Plugins` > `Install/Uninstall Plugins...`.
 ```
 
-```{dropdown} 15. Can I (and in what circumpstance should I) develop my own Napari plugin?
+```{dropdown} 15. Can I develop my own Napari plugin?
 Once you have developed a working image analysis functionality, you can [learn how to turn it into a plugin](https://napari.org/stable/plugins/first_plugin.html). If you think your plugin could be useful to the greater community, you can release it as a Python package and share it on the [Napari Hub](https://www.napari-hub.org/).
 
 To develop your own Napari plugin, you will probably have to learn how to use the [`magicgui`](https://napari.org/stable/guides/magicgui.html) library as well as the basics of [Qt for Python](https://doc.qt.io/qtforpython-6/), which are the tools behind user interface creation in Napari.
 ```
 
-```{dropdown} 16. Where can I find inspiring examples of Napari visualizations?
+```{dropdown} 16. Where can I find examples of Napari visualizations?
 To find different examples of napari usage, check out the [Napari Examples Gallery](https://napari.org/stable/gallery.html). You can also find several [Image data visualization case studies](./notebooks/README.md) in this repository.
 ```
 

@@ -1,8 +1,8 @@
 jupyter-book
 jupyterlab
 jupytext
+jupyterlab_myst
 napari[all]
-napari-animation
 matplotlib
 stardist-napari
 skan

@@ -2,8 +2,9 @@
 # Learn more at https://jupyterbook.org/customize/config.html
 
 title: Napari Imaging EPFL 2023
-author: Mallory Wittwer
-logo: logo.ico
+author: EPFL Center for Imaging
+# logo: logo.ico
+logo: icon.png
 
 # Only build files in the table of contents.
 only_build_toc_files: true
