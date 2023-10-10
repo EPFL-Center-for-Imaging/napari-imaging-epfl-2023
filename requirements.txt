@@ -5,9 +5,7 @@ napari[all]
 napari-animation
 matplotlib
 stardist-napari
-napari-matplotlib
 skan
 trackpy
-ipywidgets
 seaborn
 spam
