@@ -2,10 +2,6 @@
 
 If you'd like to run the Jupyter notebook examples from this repository on your machine ([Image data visualization case studies](./learning-material/notebooks/README.md)), you'll have to download the repository materials and start a `jupyter lab` session. Follow the steps below in order to do that.
 
-[Image data visualization case studies](./learning-material/notebooks/README.md)
-[Image data visualization case studies](./notebooks/README.md)
-[Napari](https://www.napari.org/)
-
 First, download and unzip this repository on your machine (or use `git` if you prefer).
 
 ![zip_screenshot](./images/zip_screenshot.png)
@@ -34,4 +30,4 @@ Jupyter Lab will open in a web browser window.
 
 ![jupyter_screenshot](./images/jupyter_screenshot.png)
 
-From there, you can navigate to the folder `learning-material/notebooks/`, open, execute, and edit the example notebooks as you like.
+Then, navigate to the folder `learning-material/notebooks/`. From there, you should be able to open, execute, and edit the example notebooks as you like.

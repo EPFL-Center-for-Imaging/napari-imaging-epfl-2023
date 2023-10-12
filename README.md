@@ -2,7 +2,7 @@
 
 Napari learning materials by the EPFL Center for Imaging compiled in a JupyterBook.
 
-To see the built website, go to: https://napari.org/napari-workshop-template.
+To see the built website, go to: https://mallorywittwer.github.io/napari-imaging-epfl-2023/.
 
 ## Contributing
 

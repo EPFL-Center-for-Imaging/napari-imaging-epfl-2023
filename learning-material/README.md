@@ -41,8 +41,8 @@ github.com/napari
 
 ## Next steps
 
-- Have a look at our [Napari in 20 questions]() page which will answer some questions you may have about Napari.
-- [Get started]() using Napari by installing it and downloading this workshop material.
-- Have a look at and try to run our [Notebook case studies]() to understand what is possible to achieve with Napari.
+- Have a look at our [Napari Q&A](./20_questions.md) page which will answer some questions you may have about Napari.
+- [Get started](./getting_started.md) using Napari by installing it and downloading this workshop material.
+- Have a look at and try to run our [notebook case studies](./notebooks/README.md) to understand what is possible to achieve with Napari.
   
 🎉 Happy visualization!

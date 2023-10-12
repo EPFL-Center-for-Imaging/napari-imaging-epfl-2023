@@ -1,7 +1,7 @@
 # Python setup & Napari installation
 
 ```{note}
-You can find the official Napari installation instructions [here](https://napari.org/stable/tutorials/fundamentals/installation.html#installation).
+You can also find the official Napari installation instructions [here](https://napari.org/stable/tutorials/fundamentals/installation.html#installation).
 ```
 
 ## Install Python using `conda`
@@ -11,29 +11,34 @@ Napari is a Python package, so in order to install it you'll have to have Python
 **Miniconda**: https://docs.conda.io/en/latest/miniconda.html
 
 Once you have downloaded the installer, run it to install Python.
- - **Windows**
-   1. Execute the file you just downloaded (`Miniforge3-Windows-x86_64.exe`) and follow the instructions.
-   2. Launch the *Anaconda Prompt* terminal from the start menu.
- - **Mac OS**
-   1. Open your Terminal (you can search for it in spotlight - `cmd` + `space`)
-   2. Navigate to the folder you downloaded the installer to using `cd`. For example:
 
-   ```bash
-   cd ~/Downloads
-   ```
+`````{tab-set}
+```{tab-item} Windows
+1. Execute the file you just downloaded (`Miniforge3-Windows-x86_64.exe`) and follow the instructions.
+2. Launch the *Anaconda Prompt* terminal from the start menu.
+```
+````{tab-item} Mac / Linux
+1. Open your Terminal (you can search for it in spotlight - `cmd` + `space`)
+2. Navigate to the folder you downloaded the installer to using `cd`. For example:
 
-   1. Execute the installer with the command below. You can use your arrow keys to scroll up and down to read it/agree to it.
+```bash
+cd ~/Downloads
+```
 
-   ```bash
-   bash Miniforge3-MacOSX-x86_64.sh -b
-   ```
+1. Execute the installer with the command below. You can use your arrow keys to scroll up and down to read it/agree to it.
 
-   2. To verify that your installation worked, close your Terminal window and open a new one. You should see `(base)` to the left of your prompt.
-   3. Finally, initialize miniforge with the command below. This makes sure that your terminal is set up correctly for your python installation.
+```bash
+bash Miniforge3-MacOSX-x86_64.sh -b
+```
 
-   ```bash
-   conda init
-   ```
+2. To verify that your installation worked, close your Terminal window and open a new one. You should see `(base)` to the left of your prompt.
+3. Finally, initialize miniforge with the command below. This makes sure that your terminal is set up correctly for your python installation.
+
+```bash
+conda init
+```
+````
+`````
 
 ```{admonition} Verify your installation
 :class: tip
