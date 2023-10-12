@@ -10,7 +10,7 @@ Open your terminal and follow the steps below.
 
 1. From the command-line, navigate to the repository folder you just downloaded using `cd`. For example:
 ```
-cd ~/Desktop/eias-2023-visualization-workshop/
+cd ~/Desktop/napari-imaging-epfl-2023/
 ```
 1. Activate your `Python environment`.
 ```

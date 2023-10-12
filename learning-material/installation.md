@@ -55,7 +55,7 @@ Type the following commands in your terminal to create a virtual environment (na
 conda create -n napari-env python=3.9
 ```
 
-The `-n` parameter specifies the name of the virtual environment (here, *eias*). We also specify the Python version to be 3.9. Python is constantly evolving and new versions are regularly released. At the time of writing, modern versions include 3.8 to 3.11.
+The `-n` parameter specifies the name of the virtual environment (here, *napari-env*). We also specify the Python version to be 3.9. Python is constantly evolving and new versions are regularly released. At the time of writing, modern versions include 3.8 to 3.11.
 
 ```{tip}
 You can check which virtual environments are available on your machine by typing `conda env list`.

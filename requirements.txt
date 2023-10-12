@@ -5,6 +5,7 @@ jupyterlab_myst
 napari[all]
 matplotlib
 stardist-napari
+napari-skimage-regionprops
 skan
 trackpy
 seaborn
