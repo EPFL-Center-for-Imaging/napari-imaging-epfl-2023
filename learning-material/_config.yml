@@ -3,7 +3,6 @@
 
 title: Napari Imaging EPFL 2023
 author: EPFL Center for Imaging
-# logo: logo.ico
 logo: icon.png
 
 # Only build files in the table of contents.
@@ -23,7 +22,7 @@ execute:
 # Define the name of the latex output file for PDF builds
 latex:
   latex_documents:
-    targetname: napari_workshop.tex
+    targetname: napari_learning.tex
 
 # Add a bibtex file so that we can create citations
 bibtex_bibfiles:
@@ -31,9 +30,9 @@ bibtex_bibfiles:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/napari/napari-workshop-template  # Online location of your book
-  branch: main  # Which branch of the repository should be used when creating links (optional)
-  path_to_book: "napari-workshops"  # A path to your book's folder, relative to the repository root.
+  url: https://github.com/MalloryWittwer/napari-imaging-epfl-2023/
+  branch: main
+  path_to_book: "learning-material"
 
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
