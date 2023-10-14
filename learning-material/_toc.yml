@@ -18,3 +18,4 @@ chapters:
   - file: notebooks/nuclei_stardist.ipynb
   - file: notebooks/image_correlation.ipynb
   - file: notebooks/crystallites_annotation.ipynb
+- file: contribute
