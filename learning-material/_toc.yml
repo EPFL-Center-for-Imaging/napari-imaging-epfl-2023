@@ -4,10 +4,11 @@
 format: jb-book
 root: README
 chapters:
-- file: 20_questions
+- file: questions
 - file: getting_started
   sections:
   - file: installation
+  - file: project_setup
   - file: download
 - file: notebooks/README
   sections:

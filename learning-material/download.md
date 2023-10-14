@@ -6,22 +6,22 @@ First, download and unzip this repository on your machine (or use `git` if you p
 
 ![zip_screenshot](./images/zip_screenshot.png)
 
-Open your terminal and follow the steps below.
+Then, open your terminal and follow the steps below.
 
 1. From the command-line, navigate to the repository folder you just downloaded using `cd`. For example:
 ```
 cd ~/Desktop/napari-imaging-epfl-2023/
 ```
-1. Activate your `Python environment`.
+2. Activate your `Python environment`.
 ```
 conda activate napari-env
 ```
-There are some extra Python packages listed in this repository's `requirements.txt` file. Install them using:
+3. There are some extra Python packages listed in this repository's `requirements.txt` file. Install them using:
 
 ```bash
 pip install -r requirements.txt
 ```
-1. Start the `Jupyter Lab` application.
+4. Start the `Jupyter Lab` application.
 ```
 jupyter lab
 ```
