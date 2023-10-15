@@ -24,9 +24,9 @@ Moreover, you can stay tuned with the community by following [@napari_imaging](h
 ```
 
 ```{dropdown} 3. How is Napari related to Python?
-Napari is a Python package. Its source code can be found in a [GitHub repository](https://github.com/napari/napari).
+Napari is a [Python package](https://pypi.org/project/napari/). Its source code can be found in a [GitHub repository](https://github.com/napari/napari).
 
-As a result, Napari integrates seamlessly into the scientific Python ecosystem. It can be easily coupled to machine learning and image analysis projects that use Python libraries, such as [Scikit-image](https://scikit-image.org/), [OpenCV](https://opencv.org/), or [PyTorch](https://pytorch.org/).
+Therefore, Napari integrates seamlessly into the scientific Python ecosystem. It can be easily coupled to machine learning and image analysis projects that use Python libraries, such as [Scikit-image](https://scikit-image.org/), [OpenCV](https://opencv.org/), or [PyTorch](https://pytorch.org/).
 ```
 
 ```{dropdown} 4. How to install Napari?
@@ -39,10 +39,18 @@ Yes! In your terminal, with your Python environment activated and Napari install
 napari
 ```
 The Napari viewer should open in a separate window.
+```{image} images/napari_terminal.gif
+:align: center
+```
 ````
 
 ````{dropdown} 6. How can I open an image in Napari?
-There are several ways to open images in Napari. The easiest is probably to **Drag and drop** the image file directly into the viewer window. You can also use `File` > `Open File(s)` from the menu. Lastly, you can open images programmatically from a Python script or a Jupyter notebook.
+There are several ways to open images in Napari. The easiest is probably to **Drag and drop** the image file directly into the viewer window. You can also use `File` > `Open File(s)` from the menu.
+```{image} images/draganddrop.gif
+:align: center
+```
+<br>
+Lastly, you can open images programmatically from a Python script or a Jupyter notebook.
 ```{code} python
 import napari
 
@@ -58,7 +66,7 @@ The **layer controls** interface lets you change the *contrast*, *opacity*, *col
 :height: 250px
 :align: center
 ```
-
+<br>
 You can toggle between **2D and 3D views**, and between **grid and overlay modes**, and change the **orientation** of the image by clicking on the corresponding icons at the bottom-left corner of the viewer.
 
 ```{image} images/viewer_icons.png
@@ -71,17 +79,23 @@ You can toggle between **2D and 3D views**, and between **grid and overlay modes
 Napari is a settlement located at the north end of Tabuaeran atoll, Kiribati 🏝. You can learn more about it on [Wikipedia](https://en.wikipedia.org/wiki/Napari).
 ```
 
-```{dropdown} 9. Can I use Napari for annotating data?
+````{dropdown} 9. Can I use Napari for annotating data?
 Absolutely, Napari can be used as an annotation tool. You can manually annotate **keypoints**, **polygons** (e.g. bounding boxes) and **draw segmentation masks**.
-
+```{image} images/annotate.gif
+:align: center
+```
+<br>
 To learn more about this topic, check out the [Annotation](https://napari.org/stable/tutorials/annotation/index.html) page from the docs.
-```
+````
 
-```{dropdown} 10. What kinds of images can be viewed in Napari?
+````{dropdown} 10. What kinds of images can be viewed in Napari?
 With Napari, you can view images with an arbitrary number of dimensions (which is why it's called an n-D image viewer). You can open **2D images** in both grayscale and **RGB** (color) mode, **3D images**, **timeseries** (2D+t, 3D+t), and **multichannel** images.
-
-Napari's built-in image reader can open a number of common image file formats (TIF, PNG, JPEG...). In addition, many reader plugins (e.g. [napari-aicsimageio](https://github.com/AllenCellModeling/napari-aicsimageio), [napari-medical-image-formats](https://github.com/MBPhys/napari-medical-image-formats)) can be installed to open specific file formats.
+```{image} images/mitosis.gif
+:align: center
 ```
+<br>
+Napari's built-in image reader can open a number of common image file formats (TIF, PNG, JPEG...). In addition, many reader plugins (e.g. [napari-aicsimageio](https://github.com/AllenCellModeling/napari-aicsimageio), [napari-medical-image-formats](https://github.com/MBPhys/napari-medical-image-formats)) can be installed to open specific file formats.
+````
 
 ```{dropdown} 11. Besides images, what other kinds of data can be visualized in Napari?
 You can add multiple layers of different types into the viewer and adjust their properties. Napari supports seven different layer types: **Image**, **Labels**, **Points**, **Vectors**, **Shapes**, **Surface** and **Tracks**. Each layer corresponds to a different data type and has its own set of visualizations and interactive controls.
