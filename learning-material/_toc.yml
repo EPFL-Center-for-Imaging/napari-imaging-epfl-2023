@@ -14,9 +14,9 @@ chapters:
   sections:
   - file: notebooks/segmentation_3d.ipynb
   - file: notebooks/tracking_2d.ipynb
-  - file: notebooks/skeletonization.ipynb
-  - file: notebooks/lungs_segmentation_ct.ipynb
   - file: notebooks/nuclei_stardist.ipynb
+  - file: notebooks/lungs_segmentation_ct.ipynb
+  - file: notebooks/skeletonization.ipynb
   - file: notebooks/image_correlation.ipynb
   - file: notebooks/crystallites_annotation.ipynb
 - file: contribute
