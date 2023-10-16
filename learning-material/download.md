@@ -1,8 +1,10 @@
 # Downloading and launching this workshop's Jupyter notebooks
 
-To run the Jupyter notebook examples from this repository on your machine ([Image data visualization case studies](./notebooks/README.md)), you'll have to download the repository materials and start a `jupyter lab` session.
+In the following chapter ([Image data visualization case studies](./notebooks/README.md)) you'll discover a selection of Jupyter notebook examples that showcase the usage of Python and Napari for scientific image analysis. If you want to actually run these Jupyter notebook examples, you'll have to download them from the source repository of this website on GitHub and run them in Jupyter lab.
 
-First, download and unzip this repository on your machine (or use `git` if you prefer).
+Find the repository at this link: [napari-imaging-epfl-2023](https://github.com/MalloryWittwer/napari-imaging-epfl-2023).
+
+Download and unzip the repository on your machine (or use `git` if you prefer).
 
 ![zip_screenshot](./images/zip_screenshot.png)
 
@@ -31,3 +33,10 @@ Jupyter Lab will open in a web browser window.
 ![jupyter_screenshot](./images/jupyter_screenshot.png)
 
 Navigate to the folder `learning-material/notebooks/`. From there, you should be able to open, run, and edit the example notebooks as you like.
+
+````{dropdown} What if I'm only interested in a single notebook?
+Instead of downloading the whole repository, you can also choose to download a single notebook file:
+```{image} images/download_notebook.png
+:align: center
+```
+````
