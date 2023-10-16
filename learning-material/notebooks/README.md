@@ -1,6 +1,6 @@
 # Image data visualization case studies
 
-In the following sections you'll find a collection of examples involving scientific image processing and analysis in Python and visualization in Napari in the form of Jupyter notebooks. If you'd like to run these notebooks on your computer, follow the instructions in the [Getting Started](../getting_started.md) section.
+In the following sections you'll find a collection of Jupyter notebook examples involving scientific image processing and analysis in Python and visualization in Napari. To run these notebooks on your computer and edit them, follow the instructions in the [Getting Started](../getting_started.md) section.
 
 ````{grid} 1 1 1 1
 :padding: 2

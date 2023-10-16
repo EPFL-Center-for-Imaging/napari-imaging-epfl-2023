@@ -7,10 +7,10 @@
 - visualize timeseries, 2D, 3D, and multi-channel images.
 - create interactive visualizations tailored to your needs.
 - set up visualizations in a Python script or a [Jupyter notebook](https://jupyter.org/).
-- annotate data (draw masks, polygons, etc.).
+- annotate data (draw segmentation masks, polygons, etc.).
 - use [plugins from the community](https://www.napari-hub.org/) or develop and share your own plugin.
   
-Check the links below to learn more about Napari.
+Click on the links below to learn more about Napari.
 
 ````{grid} 1 1 2 4
 ```{grid-item-card}
@@ -41,8 +41,8 @@ github.com/napari
 
 ## Next steps
 
-- Have a look at our [Napari Q&A](./20_questions.md) page which will answer some questions you may have about Napari.
-- [Get started](./getting_started.md) using Napari by installing it and downloading this workshop material.
-- Have a look at and try to run our [notebook case studies](./notebooks/README.md) to understand what is possible to achieve with Napari.
+- Have a look at our [Napari Q&A](./questions.md) page which will answer some questions you may have about Napari.
+- [Start](./getting_started.md) using Napari by installing it and downloading this workshop material.
+- Have a look at our [notebook case studies](./notebooks/README.md) to understand what is possible to do with Napari.
   
 🎉 Happy visualization!

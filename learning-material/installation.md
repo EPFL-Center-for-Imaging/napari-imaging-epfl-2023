@@ -6,7 +6,7 @@ You can also find the official Napari installation instructions [here](https://n
 
 ## Install Python using `conda`
 
-Napari is a Python package, so in order to install it you'll have to have Python installed on your machine as well. If you don't have Python, Anaconda, or Miniconda installed already, we recommend that you install `Miniconda` which is based on the [conda package manager](https://docs.conda.io/en/latest/). Follow the link below and download the installer:
+Napari is a Python package. Therefore, to install it, you must first install Python. If you haven't yet installed Python, Anaconda, or Miniconda on your machine, we recommend you install `Miniconda` which is based on the [conda package manager](https://docs.conda.io/en/latest/). Click on the link below to download the installer:
 
 **Miniconda**: https://docs.conda.io/en/latest/miniconda.html
 
@@ -14,7 +14,7 @@ Once you have downloaded the installer, run it to install Python.
 
 `````{tab-set}
 ```{tab-item} Windows
-1. Execute the file you just downloaded (`Miniforge3-Windows-x86_64.exe`) and follow the instructions.
+1. Run the executable file you just downloaded (`Miniforge3-Windows-x86_64.exe`) and follow the instructions.
 2. Launch the *Anaconda Prompt* terminal from the start menu.
 ```
 ````{tab-item} Mac / Linux
@@ -31,8 +31,8 @@ cd ~/Downloads
 bash Miniforge3-MacOSX-x86_64.sh -b
 ```
 
-2. To verify that your installation worked, close your Terminal window and open a new one. You should see `(base)` to the left of your prompt.
-3. Finally, initialize miniforge with the command below. This makes sure that your terminal is set up correctly for your python installation.
+2. To verify that your installation worked, close your terminal window and open a new one. You should see `(base)` to the left of your prompt.
+3. Finally, initialize miniforge with the command below. This makes sure that your terminal is set up correctly for your Python installation.
 
 ```bash
 conda init
@@ -88,6 +88,4 @@ With your virtual environment activated,
 - type `napari` in your terminal. The Napari viewer should open **in a separate window**.
 - type `jupyter lab` in your terminal. This should start the Jupyter lab application in your web browser. To stop Jupyter lab, close the web browser and press `Ctrl+C` in your terminal window.
 
-If this is the case, you’re done with the Python setup.
-
-Congratulations! 🙌
+You’re done with the Python setup. Congratulations! 🙌

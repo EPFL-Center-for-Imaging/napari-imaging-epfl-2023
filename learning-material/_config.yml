@@ -4,16 +4,12 @@
 title: Napari Imaging EPFL 2023
 author: EPFL Center for Imaging
 logo: icon.png
-
-# Only build files in the table of contents.
 only_build_toc_files: true
 
-launch_buttons:
-  notebook_interface : classic  # The interface interactive links will activate ["classic", "jupyterlab"]
-  binderhub_url : https://mybinder.org  # The URL of the BinderHub (e.g., https://mybinder.org)
+# launch_buttons:
+#   notebook_interface : jupyterlab  # The interface interactive links will activate ["classic", "jupyterlab"]
+#   binderhub_url : https://mybinder.org  # The URL of the BinderHub (e.g., https://mybinder.org)
 
-# Force re-execution of notebooks on each build.
-# See https://jupyterbook.org/content/execute.html
 execute:
   # execute_notebooks: "cache"
   # execute_notebooks: "auto"
@@ -40,6 +36,10 @@ html:
   use_issues_button: false
   use_repository_button: true
 
+sphinx:
+  config:
+    html_show_copyright: false
+  
 parse:
   myst_enable_extensions:
     - linkify

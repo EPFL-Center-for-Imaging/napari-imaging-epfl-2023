@@ -1,6 +1,6 @@
 # Starting a new image analysis project
 
-Now that you've set up Python and installed Napari and Jupyter lab, you can start prototyping something for your own *image data science* project.
+If you have set up Python and installed Napari and Jupyter lab, you can start prototyping something for your image analysis project.
 
 One of the first challenges you'll face is deciding how to organize the structure of your project. A simple way to get started would be as outlined below.
 
@@ -16,7 +16,7 @@ my_project/
 ```
 
 ```{tip}
-By keeping data close to your code, it's easier to refer to it via *relative paths*.
+By keeping data close to your code, it's easier to refer to it via *relative paths* in your code.
 ```
 
 Then, open your terminal and follow the steps below.
@@ -25,11 +25,11 @@ Then, open your terminal and follow the steps below.
 ```
 cd ~/Desktop/my_project/
 ```
-2. Activate your `Python environment`.
+1. Activate your `Python environment`.
 ```
 conda activate napari-env
 ```
-3. Start the `Jupyter Lab` application.
+1. Start the `Jupyter Lab` application.
 ```
 jupyter lab
 ```
