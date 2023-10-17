@@ -75,10 +75,10 @@ Install [Napari](https://napari.org/stable/) using the [pip](https://pip.pypa.io
 pip install "napari[all]"
 ```
 
-Install [Jupyter lab](https://jupyter.org/) using *conda*:
+Install [Jupyter lab](https://jupyter.org/):
 
 ```bash
-conda install -c conda-forge jupyterlab
+pip install jupyterlab
 ```
 
 ## Check your installation

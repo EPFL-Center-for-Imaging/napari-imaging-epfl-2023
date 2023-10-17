@@ -9,4 +9,3 @@ napari-skimage-regionprops
 skan
 trackpy
 seaborn
-spam
