@@ -46,17 +46,20 @@ The Napari viewer should open in a separate window.
 
 ````{dropdown} 6. How can I open an image in Napari?
 There are several ways to open images in Napari. The easiest is probably to **Drag and drop** the image file directly into the viewer window. You can also use `File` > `Open File(s)` from the menu.
+
 ```{image} images/draganddrop.gif
 :align: center
 ```
 <br>
 Lastly, you can open images programmatically from a Python script or a Jupyter notebook.
+
 ```{code} python
 import napari
 
 # Create a new viewer with the image opened in it
 viewer = napari.view_image(image)
 ```
+
 ````
 
 ````{dropdown} 7. What controls do I have in the Napari viewer?
