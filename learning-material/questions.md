@@ -87,7 +87,6 @@ Absolutely, Napari can be used as an annotation tool. You can manually annotate 
 ```{image} images/annotate.gif
 :align: center
 ```
-<br>
 To learn more about this topic, check out the [Annotation](https://napari.org/stable/tutorials/annotation/index.html) page from the docs.
 ````
 
@@ -96,7 +95,7 @@ With Napari, you can view images with an arbitrary number of dimensions (which i
 ```{image} images/mitosis.gif
 :align: center
 ```
-<br>
+
 Napari's built-in image reader can open a number of common image file formats (TIF, PNG, JPEG...). In addition, many reader plugins (e.g. [napari-aicsimageio](https://github.com/AllenCellModeling/napari-aicsimageio), [napari-medical-image-formats](https://github.com/MBPhys/napari-medical-image-formats)) can be installed to open specific file formats.
 ````
 
