@@ -26,7 +26,7 @@ bibtex_bibfiles:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/MalloryWittwer/napari-imaging-epfl-2023/
+  url: https://github.com/EPFL-Center-for-Imaging/napari-imaging-epfl-2023/
   branch: main
   path_to_book: "learning-material"
 

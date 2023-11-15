@@ -2,7 +2,7 @@
 
 In the following chapter ([Image data visualization case studies](./notebooks/README.md)) you'll discover a selection of Jupyter notebook examples that showcase the usage of Python and Napari for scientific image analysis. If you want to actually run these Jupyter notebook examples, you'll have to download them from the source repository of this website on GitHub and run them in Jupyter lab.
 
-Find the repository at this link: [napari-imaging-epfl-2023](https://github.com/MalloryWittwer/napari-imaging-epfl-2023).
+Find the repository at this link: [napari-imaging-epfl-2023](https://github.com/EPFL-Center-for-Imaging/napari-imaging-epfl-2023).
 
 Download and unzip the repository on your machine (or use `git` if you prefer).
 
